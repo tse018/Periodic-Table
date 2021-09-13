@@ -1,0 +1,76 @@
+body table {
+    background-color:aqua;
+    font-size:20px;
+}
+
+
+td:hover {
+    color:#ff0000;
+}
+
+#periodesystemet {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns:repeat(18, 1fr);
+    grid-template-rows:repeat(7,1fr);
+    max-width: 1000px;
+    margin:1em auto;
+    background-color: white;
+}
+
+
+#periodesystemet .ikke-metall {
+    grid-column:1;
+    grid-row:1;
+}
+
+#periodesystemet .edelgass {
+    grid-column:18;
+    grid-row:1;
+}
+
+#periodesystemet .alkali-metall {
+    grid-column:2;
+    grid-row:1;
+}
+
+#periodesystemet .jordalkali-metall {
+
+}
+
+#periodesystemet .metall {
+
+
+}
+
+#periodesystemet .halv-metall {
+
+}
+
+#periodesystemet .ikke-metall {
+    grid-column:1;
+    grid-row:1;
+}
+
+
+#periodesystemet .halogen {
+
+
+}
+
+#periodesystemet .transisjonsmetall {
+
+
+}
+
+#periodesystemet .transisjonmetall {
+
+}
+
+#periodesystemet .lantanoider {
+
+}
+
+#periodesystemet .aktinoider {
+
+}
